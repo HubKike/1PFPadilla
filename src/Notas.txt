@@ -1,0 +1,36 @@
+PPadillaAfterClass03
+ng new PPadillaAfterClass03
+
+ng add @angular-eslint/schematics@14
+ng add @angular/material@14
+
+
+cd src
+cd app
+
+mkdir models
+mkdir pages
+mkdir shared
+cd shared
+mkdir components
+mkdir layout
+mkdir modules
+
+
+ng g c shared/layout/header --skip-tests
+ng g c shared/layout/page-wrapper --skip-tests
+ng g c pages/students-page --skip-tests
+ng g m shared/modules/my-material --flat
+ng g c shared/components/student-dialog --inline-style --skip-tests
+
+
+PrimeFlex
+https://www.primefaces.org/primeflex/setup
+
+
+npm install primeflex
+"node_modules/primeflex/primeflex.css",
+
+
+
+01:30:54
